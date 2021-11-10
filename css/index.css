@@ -1,0 +1,451 @@
+/* 第一页 */
+.firstPage {
+	width: 100%;
+	height: 9.31rem;
+	background-color: #000000;
+	position: relative;
+}
+.gtaLogoBox {
+	width: 3.24rem;
+	height: 3.8rem;
+	position: absolute;
+	left: 2.14rem;
+	top: 2.22rem;
+	z-index: 3;
+}
+.gtaLogoBox .gtaPic {
+	width: 3.17rem;
+	height: 3.14rem;
+	background: url(../image/GTAPic.png)no-repeat;
+	background-size: cover;
+}
+.gtaLogoBox .gtaText {
+	width: 3.3rem;
+	height: 0.39rem;
+	font-size: 28px;
+	font-family: PingFang HK, PingFang HK-Medium;
+	font-weight: 500;
+	text-align: LEFT;
+	color: #ffffff;
+	margin-top: 26px;
+}
+.firstOffer {
+	width: 4.07rem;
+	height: 0.8rem;
+	background: url(../image/specialOffer.png)no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 2.12rem;
+	bottom: 1.69rem;
+	cursor: pointer;
+}
+.firstPic {
+	width: 10.8rem;
+	height: 8.19rem;
+	position: absolute;
+	top: 0.38rem;
+	right: 0;
+	background: url(../image/firstDemoOne.png)no-repeat;
+	background-size: cover;
+}
+/* 第二页 */
+.twoPage {
+	width: 100%;
+	height: 6.15rem;
+	background-color: #161616;
+	box-shadow: 0px 4px 8px 0px #000000; 
+	position: relative;
+}
+.leftIntrod {
+	width: 1.75rem;
+	height: 0.45rem;
+	position: absolute;
+	top: 0.72rem;
+	left: 1.07rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.leftIntrod .introdPic {
+	width: 0.31rem;
+	height: 0.36rem;
+	background: url(../image/Frame.png)no-repeat;
+	background-size: cover;
+}
+.leftIntrod .introdText {
+	width: 1.3rem;
+	height: 0.45rem;
+	font-size: 32px;
+	font-family: PingFang HK, PingFang HK-Medium;
+	font-weight: 500;
+	text-align: center;
+	color: #ffffff;
+	line-height: 0.42rem;
+}
+/* 左边 */
+.leftText {
+	width: 7.94rem;
+	height: 4.05rem;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	text-align: LEFT;
+	color: #ffffff;
+	position: absolute;
+	top: 1.47rem;
+	left: 1.03rem;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	line-height: 25px;
+}
+/* 右边 */
+.rightIntrod {
+	width: 7.72rem;
+	height: 3.26rem;
+	position: absolute;
+	right: 0.96rem;
+	top: 1.46rem;
+}
+.rightIntrod .language {
+	width: 7.72rem;
+	height: 1.25rem;
+	border-bottom: 3px #323232 solid;
+	display: flex;
+}
+.rightIntrod .language .languagePic {
+	width: 0.67rem;
+	height: 1.01rem;
+	margin-left: 0.14rem;
+	background: url(../image/languagePic.jpg)no-repeat;
+	background-size: cover;
+}
+.rightIntrod .language .languageText {
+	width: 6.08rem;
+	height: 0.93rem;
+	margin-left: 0.63rem;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	color: #ffffff;
+	word-spacing: 4px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.rightIntrod .development {
+	width: 7.72rem;
+	height: 0.94rem;
+	border-bottom: 3px #323232 solid;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	text-align: LEFT;
+	color: #ffffff;
+	line-height: 0.94rem;
+	padding-left: 0.16rem;
+	white-space: inherit;
+}
+.rightIntrod .issue {
+	width: 7.72rem;
+	height: 0.95rem;
+	border-bottom: 3px #323232 solid;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	text-align: LEFT;
+	color: #ffffff;
+	line-height: 0.94rem;
+	padding-left: 0.16rem;
+}
+/* 第三页 */
+.threePage {
+	width: 100%;
+	height: 31.41rem;
+	background-color: #000000;
+	position: relative;
+}
+.bottomIntrod {
+	width: 1.78rem;
+	height: 0.45rem;
+	font-size: 32px;
+	font-family: PingFang HK, PingFang HK-Medium;
+	font-weight: 500;
+	color: #ffffff;
+	position: absolute;
+	top: 0.6rem;
+	left: 1.03rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.bottomIntrodPic {
+	width: 0.4rem;
+	height: 0.4rem;
+	background: url(../image/special.png)no-repeat;
+	background-size: cover;
+}
+.bottomIntrodText {
+	width: 1.3rem;
+	height: 0.45rem;
+	line-height: 0.4rem;
+}
+
+
+.leftDemoOne {
+	width: 4.89rem;
+	height: 1.49rem;
+	position: absolute;
+	top: 2.72rem;
+	left: 1rem;
+}
+.demoOneTitle {
+	width: 4.89rem;
+	height: 0.34rem;
+	font-size: 24px;
+	font-family: PingFang HK, PingFang HK-Medium;
+	font-weight: 500;
+	text-align: left;
+	color: #ffffff;
+}
+.demoOneText {
+	width: 4.91rem;
+	height: 0.87rem;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	text-align: LEFT;
+	color: #ffffff;
+	margin-top: 0.28rem;
+	letter-spacing: 1px;
+}
+.twoOffer {
+	width: 3.66rem;
+	height: 0.8rem;
+	position: absolute;
+	left: 1.03rem;
+	top: 4.44rem;
+	background: url(../image/specialSmall.png)no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.rightDemoOnePic {
+	width: 9.4rem;
+	height: 3.97rem;
+	position: absolute;
+	top: 2.05rem;
+	right: 1.02rem;
+	background: url(../image/demoOne.jpg)no-repeat;
+	background-size: cover;
+}
+.leftDemoTwoPic {
+	width: 12rem;
+	height: 4rem;
+	position: absolute;
+	top: 6.84rem;
+	left: 1rem;
+	background: url(../image/demoTwo.jpg)no-repeat;
+	background-size: cover;
+}
+.rightDemoTwo {
+	width: 4.06rem;
+	height: 1.46rem;
+	position: absolute;
+	right: 1.02rem;
+	top: 8.02rem;
+}
+.rightDemoTwo .rightDemoTwoTitle {
+	width: 3.43rem;
+	height: 0.34rem;
+	font-size: 24px;
+	font-family: PingFang HK, PingFang HK-Medium;
+	font-weight: 500;
+	text-align: LEFT;
+	color: #ffffff;
+}
+.rightDemoTwo .rightDemoTwoText {
+	width: 4.06rem;
+	height: 0.87rem;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	text-align: LEFT;
+	color: #ffffff;
+	margin-top: 25px;
+	letter-spacing: 1px;
+}
+/* demo3 */
+.leftDemoThree {
+	width: 4.06rem;
+	height: 1.7rem;
+	position: absolute;
+	left: 1rem;
+	top: 12.19rem;
+}
+.leftDemoThree .leftDemoThreeTitle {
+	width: 2.22rem;
+	height: 0.34rem;
+	font-size: 24px;
+	font-family: PingFang HK, PingFang HK-Medium;
+	font-weight: 500;
+	text-align: LEFT;
+	color: #ffffff;
+}
+.leftDemoThree .leftDemoThreeText {
+	width: 4.06rem;
+	height: 1.11rem;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	text-align: LEFT;
+	color: #ffffff;
+	margin-top: 25px;
+	letter-spacing: 1px;
+}
+.threeOffer {
+	width: 3.66rem;
+	height: 0.8rem;
+	background: url(../image/specialSmall.png)no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 1.03rem;
+	top: 14.29rem;
+	cursor: pointer;
+}
+.rightDemoThreePic {
+	width: 12rem;
+	height: 4rem;
+	position: absolute;
+	right: 1.02rem;
+	top: 11.64rem;
+	background: url(../image/demoThree.jpg)no-repeat;
+	background-size: cover;
+}
+.leftDemoFourPic {
+	width: 11.95rem;
+	height: 3.97rem;
+	position: absolute;
+	left: 1.05rem;
+	bottom: 10.97rem;
+	background: url(../image/demoFour.jpg)no-repeat;
+	background-size: cover;
+}
+.rightDemoFour {
+	width: 4.06rem;
+	height: 1.46rem;
+	position: absolute;
+	right: 1.02rem;
+	bottom: 12.24rem;
+}
+.rightDemoFour .rightDemoFourTitle {
+	width: 3.43rem;
+	height: 0.34rem;
+	font-size: 24px;
+	font-family: PingFang HK, PingFang HK-Medium;
+	font-weight: 500;
+	text-align: LEFT;
+	color: #ffffff;
+}
+.rightDemoFour .rightDemoFourText {
+	width: 4.06rem;
+	height: 0.87rem;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	text-align: LEFT;
+	color: #ffffff;
+	margin-top: 25px;
+	letter-spacing: 1px;
+}
+/* demo5 */
+.leftDemoFive {
+	width: 4.06rem;
+	height: 1.7rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 7.92rem;
+}
+.leftDemoFiveTitle {
+	width: 2.22rem;
+	height: 0.34rem;
+	font-size: 24px;
+	font-family: PingFang HK, PingFang HK-Medium;
+	font-weight: 500;
+	text-align: LEFT;
+	color: #ffffff;
+}
+.leftDemoFiveText {
+	width: 4.06rem;
+	height: 1.11rem;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	text-align: LEFT;
+	color: #ffffff;
+	margin-top: 25px;
+	letter-spacing: 1px;
+}
+.fourOffer {
+	width: 3.66rem;
+	height: 0.8rem;
+	background: url(../image/specialSmall.png)no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 1.03rem;
+	bottom: 6.72rem;
+	cursor: pointer;
+}
+.rightDemoFivePic {
+	width: 12rem;
+	height: 3.97rem;
+	position: absolute;
+	bottom: 6.17rem;
+	right: 1.02rem;
+	background: url(../image/demoFive.jpg)no-repeat;
+	background-size: cover;
+}
+.leftDemoSixPic {
+	width: 12rem;
+	height: 4rem;
+	position: absolute;
+	bottom: 1.46rem;
+	left: 1rem;
+	background: url(../image/demoSix.jpg)no-repeat;
+	background-size: cover;
+}
+.rightDemoSix {
+	width: 4.06rem;
+	height: 1.46rem;
+	position: absolute;
+	bottom: 2.73rem;
+	right: 1.02rem;
+}
+.rightDemoSixTitle {
+	width: 3.43rem;
+	height: 0.34rem;
+	font-size: 24px;
+	font-family: PingFang HK, PingFang HK-Medium;
+	font-weight: 500;
+	text-align: LEFT;
+	color: #ffffff;
+}
+.rightDemoSixText {
+	width: 4.06rem;
+	height: 0.87rem;
+	font-size: 16px;
+	font-family: PingFang HK, PingFang HK-Regular;
+	font-weight: 400;
+	text-align: LEFT;
+	color: #ffffff;
+	margin-top: 25px;
+	letter-spacing: 1px;
+}
+.leftBackPic {
+	width: 3.56rem;
+	height: 3.63rem;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background: url(../image/w4playLogo.png)no-repeat;
+	background-size: cover;
+}
